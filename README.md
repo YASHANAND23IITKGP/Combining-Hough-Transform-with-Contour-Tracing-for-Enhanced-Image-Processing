@@ -5,6 +5,7 @@ This is a Python implementation of the Fast Hough transform. It was done as a co
 * The reference paper can be found [here](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6949962).
 
 ## Our Proposed Method
+
 *This algorithm leverages an enhanced Hough transform, optimizing the classic approach by incorporating insights from a contour tracing technique known as the Moore-Neighbor algorithm. Departing from the conventional method of generating all potential lines for each edge map pixel, this approach selectively computes lines that genuinely pertain to the image. 
 *The objective is to streamline the process and focus computational efforts on lines with significant relevance to the given image.
 
